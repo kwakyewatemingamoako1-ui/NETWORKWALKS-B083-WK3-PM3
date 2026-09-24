@@ -140,15 +140,31 @@ John the Ripper (JTR) is a widely trusted tool for testing password strength, wh
 
 ## 📋 Step 1.
 
-Set Up and Verify John (CLI)
+**Set Up and Verify John (CLI)**
 
 <br>
 
 <img width="1887" height="911" alt="Screenshot 2026-09-23 215845" src="https://github.com/user-attachments/assets/c1c27143-c5d0-4d8e-af7e-a2c73af8fab5" />
 
+<br>
+
 ## 📋 Step 2.
 
-Open Johnny (GUI): Launch the Johnny graphical interface. Ensure it is linked to a valid John the Ripper executable so it can correctly detect and report the version.
+
+* **Open Johnny (GUI):** 
+
+Launch the Johnny graphical interface. Ensure it is linked to a valid John the Ripper executable so it can correctly detect and report the version.
 
 <img width="1917" height="1011" alt="Screenshot 2026-09-23 185755" src="https://github.com/user-attachments/assets/ce015036-71ee-4fbc-a6d4-fd60d1f3e579" />
 
+Locate and select the `john.exe` executable from your local John the Ripper runtime directory.
+
+<br>
+
+## 📋 Step 3.
+
+* **Extract the PDF Password Hash:**
+
+Upload each locked PDF to the [Online PDF Hash Extractor] (https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php?utm_source=gemini). Ensure the resulting hash string starts with `$pdf$` (stripping any leading `b'` prefix if present) and save each individual hash into separate text files (`hash1.txt`, `hash2.txt`, `hash3.txt`).
+
+<img width="1907" height="906" alt="Screenshot 2026-09-23 190217" src="https://github.com/user-attachments/assets/898127c9-b3d0-41d4-a194-fc1bea81b9c5" />
