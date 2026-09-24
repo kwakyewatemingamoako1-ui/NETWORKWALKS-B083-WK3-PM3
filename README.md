@@ -68,8 +68,6 @@ The practical lab was divided into two distinct approaches:
 
 Beyond technical execution, a core focus of this assignment was capturing clear, professional evidence to document every phase of the security auditing process.
 
-Here is a clean, professional, and visually engaging rephrasing of your objectives, formatted with bullet points and emojis for your GitHub README:
-
 ---
 <br>
 
@@ -187,11 +185,13 @@ Launch the cracking process within Johnny by opening your prepared password file
   <img src="https://github.com/user-attachments/assets/bd3a8bee-9d5c-46d9-993c-ea6a8bcb1534" alt="Johnny GUI Configuration and Cracking Results" width="750" style="max-width: 100%;"/>
 </p>
 PDF 1 Result: Successfully recovered the password (`password1`).
+<br><br>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bcd5f475-75be-4ea4-a4ff-bbe2edef4217" alt="Lab Results and Verification" width="750" style="max-width: 100%;"/>
 </p>
 PDF 2 Result: Successfully recovered the password (`password1`).
+<br><br>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/aeae3b5a-98e7-4fbd-a5b4-83e69122a83e" alt="Lab Completion and Results" width="750" style="max-width: 100%;"/>
