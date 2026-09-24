@@ -1,6 +1,6 @@
 <div align="center">
 
-# NETWORKWALKS-B083-WK3-PM3
+## 🔐 PASSWORD SECURITY & HASH CRACKING
 
  Building an authorized and controlled testing framework for ethical hacking and password auditing practice.
 
@@ -26,7 +26,7 @@
 
 <br>
 
-## 📂 PROJECT OVERVIEW
+## 📂 1. PROJECT OVERVIEW
 
 
 This repository documents my practical lab work for **Week 3** covering **Project Modules 1 and 2**.
@@ -48,7 +48,7 @@ The primary objective across both modules was to recover the passwords of encryp
 ---
 <br>
 
-## 🛡️ Introduction
+## 🛡️ 2. Introduction
 
 Welcome to the documentation for my **Week 3** practical project with the Networkwalks Cybersecurity internship. This week explored password security mechanics, cryptographic hashing, file protection, and auditing methodologies.
 
@@ -95,8 +95,9 @@ The primary objectives of the Week 3 practical labs were designed to build found
 
 
 ---
+<br>
 
-## 🏗️ 5. Lab Architecture & Execution Flow
+## 🏗️ 4. Lab Architecture & Execution Flow
 
 The lab is structured around a centralized workflow. Whether using local or web-based tooling, every exercise follows the same core security auditing pipeline:
 
@@ -120,3 +121,22 @@ The lab is structured around a centralized workflow. Whether using local or web-
 | **Process** | Local Hash Parsing & Dictionary Attack | Web Utility Hash Extraction & Online Attack Simulation |
 | **Output** | Recovered Plaintext Password | Recovered Plaintext Password |
 | **Final Step** | Document Unlocking & Evidence Logging | Document Unlocking & Evidence Logging |
+
+<br>
+
+## 💻 5. Module 01 — Windows-Based Password Cracking via John the Ripper
+
+Here is a clean, professional rephrasing of your text, perfectly formatted for your GitHub README:
+
+---
+
+John the Ripper (JTR) is a widely trusted tool for testing password strength, while Johnny provides an intuitive graphical user interface (GUI) for it. The objective of this module was to extract hashes from three protected practice PDFs, crack their passwords using a dictionary attack, and successfully open the files to verify the results.
+
+### 🛠️ Tools Used
+
+* **John the Ripper (Jumbo):** Powerful command-line password auditing tool.
+* **Johnny:** Graphical front-end interface for John the Ripper.
+* **Online PDF Hash Extractor:** Web utility used to safely extract the required hashes from the target PDFs ([Access Tool](https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php?utm_source=gemini)).
+
+
+
