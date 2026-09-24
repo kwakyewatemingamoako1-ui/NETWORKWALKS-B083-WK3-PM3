@@ -1,14 +1,37 @@
-# NETWORKWALKS-B083-WK3-PM3-PASSWORD CRACKING
+<div align="center">
 
-# 🛡️ Password Security and Cracking Lab - John the Ripper & Networkwalks Tools
+# NETWORKWALKS-B083-WK3-PM3
 
-This repository documents my practical lab work for **Week 3** of the Networkwalks Cybersecurity Academy, covering **Project Modules 1 and 2**.
+ Building an authorized and controlled testing framework for ethical hacking and password auditing practice.
 
-The primary objective across both modules was to recover the passwords of encrypted PDF files using two different approaches: a local command-line environment and a browser-based utility toolkit.
+</div>
+
+  <p align="center">
+  <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/OS-Windows%20PC-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Tool-John%20the%20Ripper-E87500?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Tool-Johnny%20GUI-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Task-Password%20Cracking-C00000?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Skill-Hash%20Extraction-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Type-Dictionary%20Attack-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Target-Encrypted%20PDF-E87500?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/GitHub-Repository-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/NetworkWalks-Academy-C00000?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000" />
+</p>  
+
+<br> 
 
 ---
 
-## 📂 Project Modules
+<br>
+
+## 📂 PROJECT OVERVIEW
+
+
+This repository documents my practical lab work for **Week 3** covering **Project Modules 1 and 2**.
+
+The primary objective across both modules was to recover the passwords of encrypted PDF files using two different approaches: a local command-line environment and a browser-based utility toolkit.
 
 ### 🪟 W3-PM1: Password Cracking with John the Ripper (JTR)
 
@@ -22,9 +45,8 @@ The primary objective across both modules was to recover the passwords of encryp
 * **Tools:** Networkwalks Hash Calculator & Password Cracker 🛠️
 * **Overview:** Utilized zero-install, web-based utilities to replicate hash-extraction and dictionary-attack logic, successfully recovering file passwords and validating access on the fly ✨.
 
-Here is an alternative, more streamlined and modern rephrasing for your introduction:
-
 ---
+<br>
 
 ## 🛡️ Introduction
 
@@ -49,16 +71,52 @@ Beyond technical execution, a core focus of this assignment was capturing clear,
 Here is a clean, professional, and visually engaging rephrasing of your objectives, formatted with bullet points and emojis for your GitHub README:
 
 ---
+<br>
 
 ## 🎯 3. Objectives
 
 The primary objectives of the Week 3 practical labs were designed to build foundational competency in password auditing and file security:
 
 * 🧠 **Core Concepts:** Master password security fundamentals, cryptographic hashing mechanisms, and how files are protected.
+
 * 🛠️ **Local Tooling (JTR):** Set up and utilize **John the Ripper (JTR)** alongside the **Johnny GUI** interface on a Windows PC.
+
 * 📂 **Hash Operations:** Safely extract, save, and handle password hashes from encrypted PDF files.
+
 * 🌐 **Web-Based Auditing:** Explore zero-install security testing using the **Networkwalks Hash Calculator** and **Password Cracker**.
+
 * 🔓 **Password Recovery:** Execute controlled, authorized dictionary attacks to recover unknown passwords.
+
 * ✅ **Verification:** Test and validate recovered credentials against the target PDF to ensure successful decryption.
+
 * 📝 **Documentation & Evidence:** Capture clear technical evidence and produce professional cybersecurity documentation.
+
 * 🔒 **Security Awareness:** Understand the real-world implications of weak passwords and the necessity for robust defense strategies.
+
+
+---
+
+## 🏗️ 5. Lab Architecture & Execution Flow
+
+The lab is structured around a centralized workflow. Whether using local or web-based tooling, every exercise follows the same core security auditing pipeline:
+
+### 🔄 Standardized Workflow Pipeline
+
+1. **Target Acquisition:** Obtain the authorized, password-protected PDF document.
+
+2. **Hash Extraction:** Isolate the cryptographic hash string from the file headers/structure.
+
+3. **Execution & Cracking:** Subject the hash to a dictionary attack using the selected toolkit.
+
+4. **Verification & Proof:** Unlock the document using the recovered password and capture visual evidence.
+
+### 🛠️ Dual-Path Tooling Matrix
+
+| Phase | Module 01 (Local Environment) | Module 02 (Web-Based Environment) |
+| --- | --- | --- |
+| **Primary Tool** | John the Ripper (JTR) + Johnny GUI | Networkwalks Hash Calculator & Password Cracker |
+| **Environment** | Windows PC (Local Execution) | Browser-Based (Zero-Install Utility) |
+| **Input** | Encrypted PDF File | Encrypted PDF File |
+| **Process** | Local Hash Parsing & Dictionary Attack | Web Utility Hash Extraction & Online Attack Simulation |
+| **Output** | Recovered Plaintext Password | Recovered Plaintext Password |
+| **Final Step** | Document Unlocking & Evidence Logging | Document Unlocking & Evidence Logging |
