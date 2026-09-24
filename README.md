@@ -126,10 +126,6 @@ The lab is structured around a centralized workflow. Whether using local or web-
 
 ## 💻 5. Module 01 — Windows-Based Password Cracking via John the Ripper
 
-Here is a clean, professional rephrasing of your text, perfectly formatted for your GitHub README:
-
----
-
 John the Ripper (JTR) is a widely trusted tool for testing password strength, while Johnny provides an intuitive graphical user interface (GUI) for it. The objective of this module was to extract hashes from three protected practice PDFs, crack their passwords using a dictionary attack, and successfully open the files to verify the results.
 
 ### 🛠️ Tools Used
@@ -178,4 +174,99 @@ Upload each locked PDF to the [Online PDF Hash Extractor] (https://www.onlinehas
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6c467413-fbd8-467b-86e3-8637e27bd59b" alt="image" width="750" style="max-width: 100%;"/>
 </p>
+
+<br>
+
+## 📋 Step 4.
+
+* **Execute the Password Attack:**
+
+Launch the cracking process within Johnny by opening your prepared password file and initiating a new attack session.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bd3a8bee-9d5c-46d9-993c-ea6a8bcb1534" alt="Johnny GUI Configuration and Cracking Results" width="750" style="max-width: 100%;"/>
+</p>
+PDF 1 Result: Successfully recovered the password (`password1`).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bcd5f475-75be-4ea4-a4ff-bbe2edef4217" alt="Lab Results and Verification" width="750" style="max-width: 100%;"/>
+</p>
+PDF 2 Result: Successfully recovered the password (`password1`).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aeae3b5a-98e7-4fbd-a5b4-83e69122a83e" alt="Lab Completion and Results" width="750" style="max-width: 100%;"/>
+</p>
+PDF 3 Result: Successfully recovered the password (`1qaz2wsx`).
+
+<br><br>
+
+## 📋 Step 5.
+
+* **Verify and Test Decryption:**
+
+Open each unlocked PDF file to confirm the recovered passwords are correct. Verify that every target document successfully opens, noting that PDF 3 reveals the final lab flag.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/99b8d41b-4422-4246-9aa7-f090ef5116d3" alt="Lab Screenshot 1" width="32%">
+  &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/0baa1d44-2ed3-41c3-82c4-d896ae331ca5" alt="Lab Screenshot 2" width="32%">
+  &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/0868180b-fb67-405e-8a15-25c8309cded3" alt="Lab Screenshot 3" width="32%">
+</p>
+Successful Decryption: Verified that all three encrypted PDF files open correctly with the plain text passwords discovered during the attack.
+
+<br>
+
+### 📊 Cracking Results & Vulnerability Analysis
+
+| PDF File | Recovered Password | Vulnerability Analysis |
+| --- | --- | --- |
+| **`My Locked PDF1.pdf`** | `password1` | Highly common default password frequently found in wordlists |
+| **`My Locked PDF2.pdf`** | `password1` | Highly common default password frequently found in wordlists |
+| **`My Locked PDF3.pdf`** | `1qaz2wsx` | Predictable keyboard-walk pattern making it susceptible to pattern-based cracking |
+
+---
+
+<br>
+
+## 💻 6. Module 02 — Password Cracking with NetworkWalks Online Tools
+
+This alternative module achieves the same objective using zero-installation, browser-based utilities provided by NetworkWalks. By employing two sequential tools, it demonstrates that simple web-based utilities utilize the exact same foundational dictionary-attack principles as John the Ripper.
+
+### 🛠️ Tools Utilized:
+
+* **NetworkWalks Hash Calculator:** Locally parses the locked PDF within the browser to extract the crackable hash.
+* **NetworkWalks Password Cracker:** Executes a dictionary attack by hashing each entry in a wordlist and matching it against the extracted PDF hash.
+
+## 🚀 Step 1.
+
+* **Download the Target PDF:**
+
+Access the lab task page and download the locked practice PDF file to serve as the target for the cracking exercise.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/12bba646-2e90-4e85-bef6-8efa7cb690e9" alt="Lab Task Setup and Download" width="750" style="max-width: 100%;"/>
+</p>
+PM2 Lab Task: Online Password Cracking Using NetworkWalks Utilities
+
+## Step 2.
+
+* **Extracting the Target Hash:**
+
+Access the Hash Calculator's PDF tool, upload your locked file, and capture the generated hash details (Revision R4, Version V4, 128-bit key) automatically parsed from the document's encryption structure.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1588ea74-98b1-41bf-8f5e-98892bb93cb2" alt="NetworkWalks Hash Calculator Output" width="750" style="max-width: 100%;"/>
+</p>
+The Hash Calculator successfully isolates and extracts the target hash from the locked PDF document.
+
+## Step 3.
+
+* **Execute the Dictionary Attack:**
+
+Paste the extracted hash into the Password Cracker and initiate the process. The utility systematically tests each candidate word from the built-in wordlist until a matching key is identified.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3fa54f52-ec99-42ad-b71c-fca1feaad84c" alt="NetworkWalks Password Cracker Execution" width="750" style="max-width: 100%;"/>
+</p>
+
+Dictionary Attack Result: The cracking process successfully matched the target hash, recovering the plain text password: `password1`. 
 
