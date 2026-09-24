@@ -144,7 +144,9 @@ John the Ripper (JTR) is a widely trusted tool for testing password strength, wh
 
 <br>
 
-<img width="1887" height="911" alt="Screenshot 2026-09-23 215845" src="https://github.com/user-attachments/assets/c1c27143-c5d0-4d8e-af7e-a2c73af8fab5" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c1c27143-c5d0-4d8e-af7e-a2c73af8fab5" alt="John the Ripper Download Page" width="750" style="max-width: 100%;"/>
+</p>
 
 <br>
 
@@ -155,7 +157,9 @@ John the Ripper (JTR) is a widely trusted tool for testing password strength, wh
 
 Launch the Johnny graphical interface. Ensure it is linked to a valid John the Ripper executable so it can correctly detect and report the version.
 
-<img width="1917" height="1011" alt="Screenshot 2026-09-23 185755" src="https://github.com/user-attachments/assets/ce015036-71ee-4fbc-a6d4-fd60d1f3e579" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ce015036-71ee-4fbc-a6d4-fd60d1f3e579" alt="Johnny GUI Password Cracking Progress" width="750" style="max-width: 100%;"/>
+</p>
 
 Locate and select the `john.exe` executable from your local John the Ripper runtime directory.
 
@@ -169,5 +173,9 @@ Upload each locked PDF to the [Online PDF Hash Extractor] (https://www.onlinehas
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/51448733-6a7c-4398-87c6-e8ca3a0277f6" alt="image" width="750" style="max-width: 100%;"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6c467413-fbd8-467b-86e3-8637e27bd59b" alt="image" width="750" style="max-width: 100%;"/>
 </p>
 
