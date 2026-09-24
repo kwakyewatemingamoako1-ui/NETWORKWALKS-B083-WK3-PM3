@@ -138,5 +138,17 @@ John the Ripper (JTR) is a widely trusted tool for testing password strength, wh
 * **Johnny:** Graphical front-end interface for John the Ripper.
 * **Online PDF Hash Extractor:** Web utility used to safely extract the required hashes from the target PDFs ([Access Tool](https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php?utm_source=gemini)).
 
+## 📋 Step 1.
 
+Set Up and Verify John (CLI)
+
+<br>
+
+<img width="1887" height="911" alt="Screenshot 2026-09-23 215845" src="https://github.com/user-attachments/assets/c1c27143-c5d0-4d8e-af7e-a2c73af8fab5" />
+
+## 📋 Step 2.
+
+Open Johnny (GUI): Launch the Johnny graphical interface. Ensure it is linked to a valid John the Ripper executable so it can correctly detect and report the version.
+
+<img width="1917" height="1011" alt="Screenshot 2026-09-23 185755" src="https://github.com/user-attachments/assets/ce015036-71ee-4fbc-a6d4-fd60d1f3e579" />
 
