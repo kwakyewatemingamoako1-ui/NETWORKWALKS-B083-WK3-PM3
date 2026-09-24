@@ -167,4 +167,7 @@ Locate and select the `john.exe` executable from your local John the Ripper runt
 
 Upload each locked PDF to the [Online PDF Hash Extractor] (https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php?utm_source=gemini). Ensure the resulting hash string starts with `$pdf$` (stripping any leading `b'` prefix if present) and save each individual hash into separate text files (`hash1.txt`, `hash2.txt`, `hash3.txt`).
 
-<img width="1907" height="906" alt="Screenshot 2026-09-23 190217" src="https://github.com/user-attachments/assets/898127c9-b3d0-41d4-a194-fc1bea81b9c5" />
+<p align="center">
+<img src="https://github.com/user-attachments/assets/51448733-6a7c-4398-87c6-e8ca3a0277f6" alt="image" width="750" style="max-width: 100%;"/>
+</p>
+
