@@ -270,3 +270,101 @@ Paste the extracted hash into the Password Cracker and initiate the process. The
 
 Dictionary Attack Result: The cracking process successfully matched the target hash, recovering the plain text password: `password1`. 
 
+## Step 4.
+
+* **Verify and Test Decryption:**
+
+Open the unlocked PDF file using the recovered password to confirm its validity and reveal the final lab flag.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c1d5e4cd-a7e3-4eb7-bce5-2530d90e3569" alt="Lab Verification and Results" width="750" style="max-width: 100%;"/>
+</p>
+Final Result: The PDF was successfully unlocked using password1, resulting in the successful capture of the flag.
+
+### 📊 Browser-Based Cracking Results
+
+| PDF File | Recovered Password | Cracking Method |
+| --- | --- | --- |
+| **`My Locked PDF1.pdf`** | `password1` | Dictionary attack utilizing NetworkWalks built-in wordlist |
+
+<br>
+
+## 🔍 Module Comparison:
+
+| Category | Module 1: John the Ripper | Module 2: NetworkWalks Tools |
+| --- | --- | --- |
+| **Primary Tool** | John the Ripper (JTR) | NetworkWalks Password Cracker |
+| **Interface** | Johnny GUI | Web Browser |
+| **Hash Extraction** | Standard PDF hash extraction workflow `$pdf$...` | NetworkWalks Hash Calculator `$pdf$...` |
+| **Target** | Protected PDF | Protected PDF |
+| **Hash Format** | Standard PDF hash format | Browser-parsed PDF hash format |
+| **Environment** | Local Windows System | Web Browser Client-Side |
+| **Recovery Process** | Local JTR-based wordlist evaluation | Online NetworkWalks cracking utility |
+| **Verification** | Open protected PDF | Open protected PDF |
+| **Evidence** | Supporting screenshots | Supporting screenshots |
+
+<br>
+
+## 🧠 Key Learning Outcomes:
+
+* **PDF Hash Extraction:** Learned how to convert a password-protected PDF's encryption metadata into a crackable hash format using both command-line utilities (`pdf2john`) and browser-based alternatives (NetworkWalks Hash Calculator).
+
+* **Dictionary-Based Attacks:** Observed firsthand how password crackers evaluate candidate entries from a wordlist sequentially against a target hash until a match is found, highlighting how rapidly weak credentials fail.
+
+* **CLI vs. Browser-Based Tools:** Gained practical exposure to two distinct interfaces for the same underlying cryptographic concept, contrasting a terminal-driven workflow with a visual, real-time web application.
+
+* **Password Security:** Reinforced a core security principle regarding credential strength; common or predictable passwords fall almost instantly to basic dictionary attacks, whereas long, complex passphrases drastically increase the computational effort required for recovery.
+
+<br>
+
+## Security Recommendations:
+
+* **1️⃣ Enforce Strong Credentials:** Passwords must be lengthy, unique, and resistant to predictive analysis.
+
+* **2️⃣ Prevent Password Reuse:** Users should refrain from utilizing identical credentials across multiple platforms or services.
+
+* **3️⃣ Leverage Password Managers:** Utilize password managers to generate, manage, and securely store complex unique credentials.
+
+* **4️⃣ Enable Multi-Factor Authentication (MFA):** Implement MFA wherever available to introduce an extra layer of defense beyond single-factor passwords.
+
+* **5️⃣ Safeguard Password Hashes:** Securely protect password-related information and restrict unauthorized access to sensitive credential databases.
+
+* **6️⃣ Modernize Storage Mechanisms:** Production environments should implement robust password hashing and key-stretching functions instead of plaintext storage.
+
+* **7️⃣ Conduct Periodic Security Audits:** Organizations must regularly assess password security through authorized evaluation protocols.
+
+* **8️⃣ Track Credential Exposure:** Monitor systems continuously for leaked or compromised credentials and respond swiftly when breaches are suspected.
+
+* **9️⃣ Maintain Documentation:** Ensure security assessments keep thorough, transparent records detailing project scope, methodologies, findings, and results.
+
+* **🔟 Ensure Proper Authorization:** All password security evaluations and penetration testing must strictly adhere to predefined and approved boundaries.
+
+<br>
+
+## Troubleshooting & Challenges:
+
+* **Incorrect Hash Type:** Standard file-hashing utilities initially generated generic checksums (MD5, SHA, CRC). These represent file fingerprints rather than the specialized PDF encryption hash required for decryption attempts; standard file checksums cannot be used to recover a password.
+
+* **Hash Formatting Requirements:** Extracted hashes occasionally included a leading `b'` prefix. This artifact had to be removed to ensure the hash string formatted correctly with the required `$pdf$` prefix, enabling the cracking tool to parse the target successfully.
+
+Here is a polished and professional way to format your disclaimer for your GitHub README:
+
+### ⚠️ Disclaimer
+
+> All files, passwords, and flags utilized in this project belong strictly to a controlled NetworkWalks training lab and are shared for educational and academic purposes only.
+>
+
+<br>
+
+## 👤 Author
+
+* **Kwakyewa Teming-Amoako**
+* **Cybersecurity Professional B083**
+* **LinkedIn:** [Profile Link] *(https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B7M1seD37Qc%2BXe8iGtTBzlQ%3D%3D)*
+
+
+## 📌 Project Information
+
+* **Program Name:** Cybersecurity at NetworkWalks
+* **Week:** 03
+* **Project:** Password Cracking
+* **Repository:** GitHub
